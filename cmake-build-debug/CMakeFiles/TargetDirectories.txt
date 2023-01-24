@@ -1,0 +1,3 @@
+/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles/xv6_riscv_ph2.dir
