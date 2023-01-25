@@ -7,7 +7,7 @@
 #include "defs.h"
 #include "rand.h"
 
-#define MAX_ALLOWED_TICKETS 100
+#define MAX_ALLOWED_TICKETS 10000
 
 struct cpu cpus[NCPU];
 
