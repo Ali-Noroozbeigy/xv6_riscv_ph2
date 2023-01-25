@@ -464,7 +464,12 @@ scheduler(void)
         // before jumping back to us.
         p->state = RUNNING;
         c->proc = p;
+
+        int start_ticks = ticks;
         swtch(&c->context, &p->context);
+
+        int number_of_ticks = ticks - start_ticks;
+        p->ticks += number_of_ticks;
 
         // Process is done running for now.
         // It should have changed its p->state before coming back.
