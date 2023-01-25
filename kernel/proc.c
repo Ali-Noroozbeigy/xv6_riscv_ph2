@@ -6,6 +6,8 @@
 #include "proc.h"
 #include "defs.h"
 
+#define MAX_ALLOWED_TICKETS 100
+
 struct cpu cpus[NCPU];
 
 struct proc proc[NPROC];
