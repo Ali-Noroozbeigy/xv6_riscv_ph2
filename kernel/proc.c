@@ -683,3 +683,15 @@ procdump(void)
     printf("\n");
   }
 }
+
+int settickets(int number){
+    if(number <= 0 || number > MAX_ALLOWED_TICKETS){
+        return -1;
+    }
+
+    struct proc* current_proc = myproc();
+
+    current_proc->tickets = number;
+    return 0;
+
+}
