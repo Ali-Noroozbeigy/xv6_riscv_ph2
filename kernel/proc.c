@@ -471,24 +471,28 @@ scheduler(void)
     // Avoid deadlock by ensuring that devices can interrupt.
     intr_on();
 
+    long temp_total = 0;
+    long total_tickets = sumRunnableProcTickets() * 1LL;
+    long winner_ticket = random_at_most(total_tickets) + 1;
+
     for(p = proc; p < &proc[NPROC]; p++) {
       acquire(&p->lock);
-      if(p->state == RUNNABLE) {
-        // Switch to chosen process.  It is the process's job
-        // to release its lock and then reacquire it
-        // before jumping back to us.
-        p->state = RUNNING;
-        c->proc = p;
+      if(p->state == RUNNABLE)
+          temp_total += p->tickets;
+      else
+          continue;
 
-        int start_ticks = ticks;
-        swtch(&c->context, &p->context);
+      if(temp_total >= winner_ticket){ // winner found!
+          p->state = RUNNING;
+          c->proc = p;
 
-        int number_of_ticks = ticks - start_ticks;
-        p->ticks += number_of_ticks;
+          int start_ticks = ticks;
+          swtch(&c->context, &p->context);
 
-        // Process is done running for now.
-        // It should have changed its p->state before coming back.
-        c->proc = 0;
+          int number_of_ticks = ticks - start_ticks;
+          p->ticks += number_of_ticks;
+
+          c->proc = 0;
       }
       release(&p->lock);
     }
