@@ -695,3 +695,21 @@ int settickets(int number){
     return 0;
 
 }
+
+int getprocessesinfo(struct processes_info* p){
+    struct proc* temp;
+    int proc_index;
+    p->num_processes = 0;
+
+    for(temp = proc, proc_index=0; temp < &proc[NPROC]; temp++, proc_index++){
+        acquire(&temp->lock);
+        if(temp->state != UNUSED){
+            p->num_processes++;
+            p->pids[proc_index] = temp->pid;
+            p->ticks[proc_index] = temp->ticks;
+            p->tickets[proc_index] = temp->tickets;
+        }
+        release(&temp->lock);
+    }
+    return 0;
+}
