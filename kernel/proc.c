@@ -8,6 +8,7 @@
 #include "rand.h"
 
 #define MAX_ALLOWED_TICKETS 10000
+#define DEFAULT_TICKET_NUMBER 10
 
 struct cpu cpus[NCPU];
 
@@ -58,6 +59,7 @@ procinit(void)
       initlock(&p->lock, "proc");
       p->state = UNUSED;
       p->kstack = KSTACK((int) (p - proc));
+      p->tickets = DEFAULT_TICKET_NUMBER;
   }
 }
 
