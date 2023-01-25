@@ -97,3 +97,11 @@ sys_settickets(void){
     argint(0, &number);
     return settickets(number);
 }
+
+uint64
+sys_getprocessesinfo(void){
+    struct processes_info* p;
+    argaddr(0, (uint64*) &p);
+
+    return getprocessesinfo(p);
+}
