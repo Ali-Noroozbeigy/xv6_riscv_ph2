@@ -81,6 +81,7 @@ add_executable(xv6_riscv_ph2
         user/usys.pl
         user/wc.c
         user/zombie.c
+        user/systest.c
         LICENSE
         Makefile
-        README kernel/rand.c kernel/rand.h)
+        README user/systest.c)

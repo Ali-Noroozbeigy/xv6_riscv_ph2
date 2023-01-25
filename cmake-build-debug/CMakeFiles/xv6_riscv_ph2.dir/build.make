@@ -638,18 +638,18 @@ CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/zombie.c -o CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.s
 
-CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
-CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.o: ../kernel/rand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.o -c /home/ali/xv6_riscv_ph2/kernel/rand.c
+CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
+CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o: ../user/systest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o -c /home/ali/xv6_riscv_ph2/user/systest.c
 
-CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/rand.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.i
+CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/systest.c > CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.i
 
-CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/rand.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.s
+CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/systest.c -o CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.s
 
 # Object files for target xv6_riscv_ph2
 xv6_riscv_ph2_OBJECTS = \
@@ -697,7 +697,7 @@ xv6_riscv_ph2_OBJECTS = \
 "CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.o" \
 "CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.o" \
 "CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.o" \
-"CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.o"
+"CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o"
 
 # External object files for target xv6_riscv_ph2
 xv6_riscv_ph2_EXTERNAL_OBJECTS =
@@ -746,7 +746,7 @@ xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.o
 xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.o
 xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.o
 xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.o
-xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.o
+xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o
 xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/build.make
 xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Linking C executable xv6_riscv_ph2"
