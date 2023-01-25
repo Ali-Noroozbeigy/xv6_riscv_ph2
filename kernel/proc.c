@@ -5,6 +5,7 @@
 #include "spinlock.h"
 #include "proc.h"
 #include "defs.h"
+#include "rand.h"
 
 #define MAX_ALLOWED_TICKETS 100
 
@@ -436,6 +437,20 @@ wait(uint64 addr)
     // Wait for a child to exit.
     sleep(p, &wait_lock);  //DOC: wait-sleep
   }
+}
+
+int sumRunnableProcTickets(void)
+{
+    struct proc *p;
+    int total = 0;
+    for (p = proc; p < &proc[NPROC]; p++)
+    {
+        if (p->state == RUNNABLE)
+        {
+            total += p->tickets;
+        }
+    }
+    return total;
 }
 
 // Per-CPU process scheduler.
