@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/ali/xv6_riscv_ph2/kernel/printf.c" "/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.o"
   "/home/ali/xv6_riscv_ph2/kernel/proc.c" "/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.o"
   "/home/ali/xv6_riscv_ph2/kernel/ramdisk.c" "/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.o"
+  "/home/ali/xv6_riscv_ph2/kernel/rand.c" "/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.o"
   "/home/ali/xv6_riscv_ph2/kernel/sleeplock.c" "/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.o"
   "/home/ali/xv6_riscv_ph2/kernel/spinlock.c" "/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.o"
   "/home/ali/xv6_riscv_ph2/kernel/start.c" "/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.o"

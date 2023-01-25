@@ -441,6 +441,30 @@ kernel/ramdisk.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xv6_riscv_ph2.dir/build.make CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.s
 .PHONY : kernel/ramdisk.c.s
 
+kernel/rand.o: kernel/rand.c.o
+.PHONY : kernel/rand.o
+
+# target to build an object file
+kernel/rand.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xv6_riscv_ph2.dir/build.make CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.o
+.PHONY : kernel/rand.c.o
+
+kernel/rand.i: kernel/rand.c.i
+.PHONY : kernel/rand.i
+
+# target to preprocess a source file
+kernel/rand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xv6_riscv_ph2.dir/build.make CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.i
+.PHONY : kernel/rand.c.i
+
+kernel/rand.s: kernel/rand.c.s
+.PHONY : kernel/rand.s
+
+# target to generate assembly for a file
+kernel/rand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xv6_riscv_ph2.dir/build.make CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.s
+.PHONY : kernel/rand.c.s
+
 kernel/sleeplock.o: kernel/sleeplock.c.o
 .PHONY : kernel/sleeplock.o
 
@@ -1233,6 +1257,9 @@ help:
 	@echo "... kernel/ramdisk.o"
 	@echo "... kernel/ramdisk.i"
 	@echo "... kernel/ramdisk.s"
+	@echo "... kernel/rand.o"
+	@echo "... kernel/rand.i"
+	@echo "... kernel/rand.s"
 	@echo "... kernel/sleeplock.o"
 	@echo "... kernel/sleeplock.i"
 	@echo "... kernel/sleeplock.s"

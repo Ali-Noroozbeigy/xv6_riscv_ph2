@@ -83,4 +83,4 @@ add_executable(xv6_riscv_ph2
         user/zombie.c
         LICENSE
         Makefile
-        README)
+        README kernel/rand.c)

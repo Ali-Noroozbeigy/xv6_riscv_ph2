@@ -185,6 +185,9 @@
 		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/ramdisk.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
+		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/rand.c">
+			<Option target="xv6_riscv_ph2"/>
+		</Unit>
 		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/riscv.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>

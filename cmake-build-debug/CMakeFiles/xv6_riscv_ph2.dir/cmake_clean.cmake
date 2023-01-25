@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.o"
   "CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.o"
   "CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.o"
+  "CMakeFiles/xv6_riscv_ph2.dir/kernel/rand.c.o"
   "CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.o"
   "CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.o"
   "CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.o"
