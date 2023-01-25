@@ -318,6 +318,7 @@ fork(void)
 
   acquire(&wait_lock);
   np->parent = p;
+  np->tickets = p->tickets;
   release(&wait_lock);
 
   acquire(&np->lock);
