@@ -63,6 +63,7 @@ procinit(void)
       p->state = UNUSED;
       p->kstack = KSTACK((int) (p - proc));
       p->tickets = DEFAULT_TICKET_NUMBER;
+      p->ticks = 0;
   }
 }
 

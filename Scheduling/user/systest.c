@@ -31,14 +31,14 @@ forktest(void)
         }
     }
 
-//    struct processes_info p;
-//    getprocessesinfo(&p);
-//    printf("***************************\n");
+    struct processes_info p;
+    getprocessesinfo(&p);
+    printf("***************************\n");
 
-//    if(n == N){
-//        print("fork claimed to work N times!\n");
-//        exit(1);
-//    }
+    if(n == N){
+        print("fork claimed to work N times!\n");
+        exit(1);
+    }
 
     for(; n > 0; n--){
         if(wait(0) < 0){
@@ -81,7 +81,7 @@ int main(){
     printf("***************************\n");
     forktest();
     printf("***************************\n");
-    getprocessesinfo(&p);
+    //getprocessesinfo(&p);
 
     exit(0);
 }
