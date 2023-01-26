@@ -18,26 +18,36 @@ int main(){
         if (pid_2 == 0){
             settickets(200);
             int x = 0;
-            for(int i=0; i<100000; i++)
+            for(int i=0; i<10000000; i++)
                 x += 1;
         }
 
-        int x = 0;
-        for(int i=0; i<100000; i++)
-            x += 1;
-        wait(0);
-        wait(0);
+        else{
+            int x = 0;
+            for (int i = 0; i < 10000000; i++)
+                x += 1;
+
+            struct processes_info p;
+            getprocessesinfo(&p);
+
+            printf("number of process: %d\n", p.num_processes);
+            for (int i=0; i<p.num_processes; i++){
+                printf("pid[%d]: %d\n", i, p.pids[i]);
+                printf("tickets[%d]: %d\n", i, p.tickets[i]);
+                printf("ticks[%d]: %d\n", i, p.ticks[i]);
+            }
+
+            wait(0);
+            wait(0);
+        }
     }
 
     else{
         settickets(300);
         int x = 0;
-        for(int i=0; i<100000; i++)
+        for(int i=0; i<10000000; i++)
             x += 1;
     }
-
-    struct processes_info p;
-    getprocessesinfo(&p);
 
     exit(0);
 };
