@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ali/xv6_riscv_ph2/kernel -I/home/ali/xv6_riscv_ph2/user
+C_INCLUDES = -I/home/ali/xv6_riscv_ph2/Scheduling/kernel -I/home/ali/xv6_riscv_ph2/Scheduling/user
 
 C_FLAGS = -g
 

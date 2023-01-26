@@ -53,10 +53,10 @@ RM = /opt/clion-2021.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ali/xv6_riscv_ph2
+CMAKE_SOURCE_DIR = /home/ali/xv6_riscv_ph2/Scheduling
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ali/xv6_riscv_ph2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/xv6_riscv_ph2.dir/depend.make
@@ -68,588 +68,588 @@ include CMakeFiles/xv6_riscv_ph2.dir/flags.make
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.o: ../kernel/bio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.o -c /home/ali/xv6_riscv_ph2/kernel/bio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/bio.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/bio.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/bio.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/bio.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/bio.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/bio.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.o: ../kernel/console.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.o -c /home/ali/xv6_riscv_ph2/kernel/console.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/console.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/console.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/console.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/console.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/console.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/console.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.o: ../kernel/exec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.o -c /home/ali/xv6_riscv_ph2/kernel/exec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/exec.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/exec.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/exec.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/exec.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/exec.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/exec.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.o: ../kernel/file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.o -c /home/ali/xv6_riscv_ph2/kernel/file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/file.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/file.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/file.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/file.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/file.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/file.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.o: ../kernel/fs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.o -c /home/ali/xv6_riscv_ph2/kernel/fs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/fs.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/fs.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/fs.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/fs.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/fs.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/fs.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.o: ../kernel/kalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.o -c /home/ali/xv6_riscv_ph2/kernel/kalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/kalloc.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/kalloc.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/kalloc.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/kalloc.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/kalloc.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/kalloc.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.o: ../kernel/log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.o -c /home/ali/xv6_riscv_ph2/kernel/log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/log.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/log.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/log.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/log.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/log.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/log.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.o: ../kernel/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.o -c /home/ali/xv6_riscv_ph2/kernel/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/main.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/main.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/main.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/main.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/main.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/main.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.o: ../kernel/pipe.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.o -c /home/ali/xv6_riscv_ph2/kernel/pipe.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/pipe.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/pipe.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/pipe.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/pipe.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/pipe.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/pipe.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.o: ../kernel/plic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.o -c /home/ali/xv6_riscv_ph2/kernel/plic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/plic.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/plic.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/plic.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/plic.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/plic.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/plic.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.o: ../kernel/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.o -c /home/ali/xv6_riscv_ph2/kernel/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/printf.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/printf.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/printf.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/printf.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/printf.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/printf.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.o: ../kernel/proc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.o -c /home/ali/xv6_riscv_ph2/kernel/proc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/proc.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/proc.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/proc.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/proc.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/proc.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/proc.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.o: ../kernel/ramdisk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.o -c /home/ali/xv6_riscv_ph2/kernel/ramdisk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/ramdisk.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/ramdisk.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/ramdisk.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/ramdisk.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/ramdisk.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/ramdisk.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.o: ../kernel/sleeplock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.o -c /home/ali/xv6_riscv_ph2/kernel/sleeplock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/sleeplock.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/sleeplock.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/sleeplock.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/sleeplock.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/sleeplock.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sleeplock.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.o: ../kernel/spinlock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.o -c /home/ali/xv6_riscv_ph2/kernel/spinlock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/spinlock.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/spinlock.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/spinlock.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/spinlock.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/spinlock.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/spinlock.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.o: ../kernel/start.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.o -c /home/ali/xv6_riscv_ph2/kernel/start.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/start.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/start.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/start.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/start.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/start.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/start.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.o: ../kernel/string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.o -c /home/ali/xv6_riscv_ph2/kernel/string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/string.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/string.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/string.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/string.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/string.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/string.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.o: ../kernel/syscall.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.o -c /home/ali/xv6_riscv_ph2/kernel/syscall.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/syscall.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/syscall.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/syscall.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/syscall.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/syscall.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/syscall.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.o: ../kernel/sysfile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.o -c /home/ali/xv6_riscv_ph2/kernel/sysfile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/sysfile.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/sysfile.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/sysfile.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/sysfile.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/sysfile.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sysfile.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.o: ../kernel/sysproc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.o -c /home/ali/xv6_riscv_ph2/kernel/sysproc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/sysproc.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/sysproc.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/sysproc.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/sysproc.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/sysproc.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/sysproc.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.o: ../kernel/trap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.o -c /home/ali/xv6_riscv_ph2/kernel/trap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/trap.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/trap.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/trap.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/trap.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/trap.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/trap.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.o: ../kernel/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.o -c /home/ali/xv6_riscv_ph2/kernel/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/uart.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/uart.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/uart.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/uart.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/uart.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/uart.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.o: ../kernel/virtio_disk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.o -c /home/ali/xv6_riscv_ph2/kernel/virtio_disk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/virtio_disk.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/virtio_disk.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/virtio_disk.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/virtio_disk.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/virtio_disk.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/virtio_disk.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.o: ../kernel/vm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.o -c /home/ali/xv6_riscv_ph2/kernel/vm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/kernel/vm.c
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/kernel/vm.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/kernel/vm.c > CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/kernel/vm.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/kernel/vm.c -o CMakeFiles/xv6_riscv_ph2.dir/kernel/vm.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.o: ../mkfs/mkfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.o -c /home/ali/xv6_riscv_ph2/mkfs/mkfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/mkfs/mkfs.c
 
 CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/mkfs/mkfs.c > CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/mkfs/mkfs.c > CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/mkfs/mkfs.c -o CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/mkfs/mkfs.c -o CMakeFiles/xv6_riscv_ph2.dir/mkfs/mkfs.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.o: ../user/cat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.o -c /home/ali/xv6_riscv_ph2/user/cat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/cat.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/cat.c > CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/cat.c > CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/cat.c -o CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/cat.c -o CMakeFiles/xv6_riscv_ph2.dir/user/cat.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.o: ../user/echo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.o -c /home/ali/xv6_riscv_ph2/user/echo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/echo.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/echo.c > CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/echo.c > CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/echo.c -o CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/echo.c -o CMakeFiles/xv6_riscv_ph2.dir/user/echo.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.o: ../user/forktest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.o -c /home/ali/xv6_riscv_ph2/user/forktest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/forktest.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/forktest.c > CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/forktest.c > CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/forktest.c -o CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/forktest.c -o CMakeFiles/xv6_riscv_ph2.dir/user/forktest.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.o: ../user/grep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.o -c /home/ali/xv6_riscv_ph2/user/grep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/grep.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/grep.c > CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/grep.c > CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/grep.c -o CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/grep.c -o CMakeFiles/xv6_riscv_ph2.dir/user/grep.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.o: ../user/grind.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.o -c /home/ali/xv6_riscv_ph2/user/grind.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/grind.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/grind.c > CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/grind.c > CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/grind.c -o CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/grind.c -o CMakeFiles/xv6_riscv_ph2.dir/user/grind.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/init.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/init.c.o: ../user/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/init.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/init.c.o -c /home/ali/xv6_riscv_ph2/user/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/init.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/init.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/init.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/init.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/init.c > CMakeFiles/xv6_riscv_ph2.dir/user/init.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/init.c > CMakeFiles/xv6_riscv_ph2.dir/user/init.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/init.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/init.c -o CMakeFiles/xv6_riscv_ph2.dir/user/init.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/init.c -o CMakeFiles/xv6_riscv_ph2.dir/user/init.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.o: ../user/kill.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.o -c /home/ali/xv6_riscv_ph2/user/kill.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/kill.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/kill.c > CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/kill.c > CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/kill.c -o CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/kill.c -o CMakeFiles/xv6_riscv_ph2.dir/user/kill.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.o: ../user/ln.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.o -c /home/ali/xv6_riscv_ph2/user/ln.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/ln.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/ln.c > CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/ln.c > CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/ln.c -o CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/ln.c -o CMakeFiles/xv6_riscv_ph2.dir/user/ln.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.o: ../user/ls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.o -c /home/ali/xv6_riscv_ph2/user/ls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/ls.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/ls.c > CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/ls.c > CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/ls.c -o CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/ls.c -o CMakeFiles/xv6_riscv_ph2.dir/user/ls.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.o: ../user/mkdir.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.o -c /home/ali/xv6_riscv_ph2/user/mkdir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/mkdir.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/mkdir.c > CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/mkdir.c > CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/mkdir.c -o CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/mkdir.c -o CMakeFiles/xv6_riscv_ph2.dir/user/mkdir.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.o: ../user/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.o -c /home/ali/xv6_riscv_ph2/user/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/printf.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/printf.c > CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/printf.c > CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/printf.c -o CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/printf.c -o CMakeFiles/xv6_riscv_ph2.dir/user/printf.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.o: ../user/rm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.o -c /home/ali/xv6_riscv_ph2/user/rm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/rm.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/rm.c > CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/rm.c > CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/rm.c -o CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/rm.c -o CMakeFiles/xv6_riscv_ph2.dir/user/rm.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.o: ../user/sh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.o -c /home/ali/xv6_riscv_ph2/user/sh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/sh.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/sh.c > CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/sh.c > CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/sh.c -o CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/sh.c -o CMakeFiles/xv6_riscv_ph2.dir/user/sh.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.o: ../user/stressfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.o -c /home/ali/xv6_riscv_ph2/user/stressfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/stressfs.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/stressfs.c > CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/stressfs.c > CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/stressfs.c -o CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/stressfs.c -o CMakeFiles/xv6_riscv_ph2.dir/user/stressfs.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.o: ../user/ulib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.o -c /home/ali/xv6_riscv_ph2/user/ulib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/ulib.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/ulib.c > CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/ulib.c > CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/ulib.c -o CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/ulib.c -o CMakeFiles/xv6_riscv_ph2.dir/user/ulib.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.o: ../user/umalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.o -c /home/ali/xv6_riscv_ph2/user/umalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/umalloc.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/umalloc.c > CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/umalloc.c > CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/umalloc.c -o CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/umalloc.c -o CMakeFiles/xv6_riscv_ph2.dir/user/umalloc.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.o: ../user/usertests.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.o -c /home/ali/xv6_riscv_ph2/user/usertests.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/usertests.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/usertests.c > CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/usertests.c > CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/usertests.c -o CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/usertests.c -o CMakeFiles/xv6_riscv_ph2.dir/user/usertests.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.o: ../user/wc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.o -c /home/ali/xv6_riscv_ph2/user/wc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/wc.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/wc.c > CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/wc.c > CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/wc.c -o CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/wc.c -o CMakeFiles/xv6_riscv_ph2.dir/user/wc.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.o: ../user/zombie.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.o -c /home/ali/xv6_riscv_ph2/user/zombie.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/zombie.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/zombie.c > CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/zombie.c > CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/zombie.c -o CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/zombie.c -o CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.s
 
 CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o: CMakeFiles/xv6_riscv_ph2.dir/flags.make
 CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o: ../user/systest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o -c /home/ali/xv6_riscv_ph2/user/systest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o -c /home/ali/xv6_riscv_ph2/Scheduling/user/systest.c
 
 CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/user/systest.c > CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ali/xv6_riscv_ph2/Scheduling/user/systest.c > CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.i
 
 CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/user/systest.c -o CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ali/xv6_riscv_ph2/Scheduling/user/systest.c -o CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.s
 
 # Object files for target xv6_riscv_ph2
 xv6_riscv_ph2_OBJECTS = \
@@ -749,7 +749,7 @@ xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/user/zombie.c.o
 xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/user/systest.c.o
 xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/build.make
 xv6_riscv_ph2: CMakeFiles/xv6_riscv_ph2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Linking C executable xv6_riscv_ph2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Linking C executable xv6_riscv_ph2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xv6_riscv_ph2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -761,6 +761,6 @@ CMakeFiles/xv6_riscv_ph2.dir/clean:
 .PHONY : CMakeFiles/xv6_riscv_ph2.dir/clean
 
 CMakeFiles/xv6_riscv_ph2.dir/depend:
-	cd /home/ali/xv6_riscv_ph2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/xv6_riscv_ph2 /home/ali/xv6_riscv_ph2 /home/ali/xv6_riscv_ph2/cmake-build-debug /home/ali/xv6_riscv_ph2/cmake-build-debug /home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeFiles/xv6_riscv_ph2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/xv6_riscv_ph2/Scheduling /home/ali/xv6_riscv_ph2/Scheduling /home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug /home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug /home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeFiles/xv6_riscv_ph2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xv6_riscv_ph2.dir/depend
 

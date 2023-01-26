@@ -8,44 +8,44 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ali/xv6_riscv_ph2/cmake-build-debug"/>
+				<Option working_dir="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ali/xv6_riscv_ph2/cmake-build-debug"/>
+				<Option working_dir="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ali/xv6_riscv_ph2/cmake-build-debug"/>
+				<Option working_dir="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="xv6_riscv_ph2">
-				<Option output="/home/ali/xv6_riscv_ph2/cmake-build-debug/xv6_riscv_ph2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ali/xv6_riscv_ph2/cmake-build-debug"/>
+				<Option output="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/xv6_riscv_ph2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ali/xv6_riscv_ph2/kernel"/>
-					<Add directory="/home/ali/xv6_riscv_ph2/user"/>
+					<Add directory="/home/ali/xv6_riscv_ph2/Scheduling/kernel"/>
+					<Add directory="/home/ali/xv6_riscv_ph2/Scheduling/user"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -55,21 +55,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 xv6_riscv_ph2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 xv6_riscv_ph2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="xv6_riscv_ph2/fast">
-				<Option output="/home/ali/xv6_riscv_ph2/cmake-build-debug/xv6_riscv_ph2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ali/xv6_riscv_ph2/cmake-build-debug"/>
+				<Option output="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/xv6_riscv_ph2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ali/xv6_riscv_ph2/kernel"/>
-					<Add directory="/home/ali/xv6_riscv_ph2/user"/>
+					<Add directory="/home/ali/xv6_riscv_ph2/Scheduling/kernel"/>
+					<Add directory="/home/ali/xv6_riscv_ph2/Scheduling/user"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -79,251 +79,251 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 xv6_riscv_ph2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 xv6_riscv_ph2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ali/xv6_riscv_ph2/LICENSE">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/LICENSE">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/Makefile">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/Makefile">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/README">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/README">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/cmake-build-debug/CMakeCache.txt">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/CMakeCache.txt">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/cmake-build-debug/Makefile">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Makefile">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/cmake-build-debug/Testing/Temporary/LastTest.log">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/Testing/Temporary/LastTest.log">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/cmake-build-debug/cmake_install.cmake">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/cmake_install.cmake">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/cmake-build-debug/xv6_riscv_ph2.cbp">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/cmake-build-debug/xv6_riscv_ph2.cbp">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/bio.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/bio.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/buf.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/buf.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/console.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/console.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/defs.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/defs.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/elf.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/elf.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/entry.S">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/entry.S">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/exec.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/exec.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/fcntl.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/fcntl.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/file.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/file.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/file.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/file.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/fs.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/fs.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/fs.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/fs.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/info.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/info.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/kalloc.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/kalloc.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/kernel.ld">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/kernel.ld">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/kernelvec.S">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/kernelvec.S">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/log.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/log.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/main.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/main.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/memlayout.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/memlayout.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/param.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/param.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/pipe.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/pipe.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/plic.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/plic.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/printf.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/printf.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/proc.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/proc.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/proc.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/proc.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/ramdisk.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/ramdisk.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/riscv.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/riscv.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/sleeplock.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/sleeplock.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/sleeplock.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/sleeplock.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/spinlock.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/spinlock.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/spinlock.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/spinlock.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/start.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/start.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/stat.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/stat.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/string.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/string.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/swtch.S">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/swtch.S">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/syscall.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/syscall.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/syscall.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/syscall.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/sysfile.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/sysfile.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/sysproc.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/sysproc.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/trampoline.S">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/trampoline.S">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/trap.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/trap.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/types.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/types.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/uart.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/uart.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/virtio.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/virtio.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/virtio_disk.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/virtio_disk.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/vm.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/kernel/vm.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/mkfs/mkfs.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/mkfs/mkfs.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/cat.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/cat.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/echo.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/echo.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/forktest.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/forktest.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/grep.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/grep.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/grind.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/grind.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/init.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/init.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/initcode.S">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/initcode.S">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/kill.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/kill.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/ln.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/ln.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/ls.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/ls.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/mkdir.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/mkdir.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/printf.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/printf.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/rm.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/rm.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/sh.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/sh.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/stressfs.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/stressfs.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/systest.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/systest.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/ulib.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/ulib.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/umalloc.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/umalloc.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/user.h">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/user.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/user.ld">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/user.ld">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/usertests.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/usertests.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/usys.pl">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/usys.pl">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/wc.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/wc.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/user/zombie.c">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/user/zombie.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
-		<Unit filename="/home/ali/xv6_riscv_ph2/CMakeLists.txt">
+		<Unit filename="/home/ali/xv6_riscv_ph2/Scheduling/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
