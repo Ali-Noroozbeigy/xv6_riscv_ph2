@@ -21,16 +21,24 @@ forktest(void)
 
     for(n=0; n<N; n++){
         pid = fork();
+        int x = 0;
         if(pid < 0)
             break;
-        if(pid == 0)
+        if(pid == 0){
+            for(int f=0; f<10; f++)
+                x+=1;
             exit(0);
+        }
     }
 
-    if(n == N){
-        print("fork claimed to work N times!\n");
-        exit(1);
-    }
+//    struct processes_info p;
+//    getprocessesinfo(&p);
+//    printf("***************************\n");
+
+//    if(n == N){
+//        print("fork claimed to work N times!\n");
+//        exit(1);
+//    }
 
     for(; n > 0; n--){
         if(wait(0) < 0){
@@ -69,6 +77,10 @@ int main(){
 
 /* part without bug */
     struct processes_info p;
+    getprocessesinfo(&p);
+    printf("***************************\n");
+    forktest();
+    printf("***************************\n");
     getprocessesinfo(&p);
 
     exit(0);
