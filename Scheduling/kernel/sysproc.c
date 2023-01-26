@@ -101,9 +101,11 @@ sys_settickets(void){
 
 uint64
 sys_getprocessesinfo(void){
-    struct processes_info* p;
-    argaddr(0, (uint64*) &p);
-//    printf("%d", (*p).num_processes);
+    uint64 struct_addr;
 
-    return getprocessesinfo(p);
+    argaddr(0, &struct_addr);
+
+    getprocessesinfo(struct_addr);
+
+    return 1;
 }
