@@ -729,44 +729,26 @@ int settickets(int number){
 
 }
 
-int getprocessesinfo(struct processes_info* p){
-//    struct proc* temp;
-//    int proc_index;
-//    p->num_processes = 0;
-//    for(temp = proc, proc_index=0; temp < &proc[NPROC]; temp++, proc_index++){
-//        acquire(&temp->lock);
-//        if(temp->state != UNUSED){
-//            p->num_processes++;
-//            p->pids[proc_index] = temp->pid;
-//            p->ticks[proc_index] = temp->ticks;
-//            p->tickets[proc_index] = temp->tickets;
-//        }
-//        release(&temp->lock);
-//    }
-//    return 0;
-
+int getprocessesinfo(uint64 struct_addr){
     struct proc* temp;
+
+    struct processes_info pi;
+
     int proc_index;
-    struct processes_info info;
-    struct processes_info* pi = &info;
-    pi->num_processes =0;
+    pi.num_processes = 0;
     for(temp = proc, proc_index=0; temp < &proc[NPROC]; temp++, proc_index++){
         acquire(&temp->lock);
         if(temp->state != UNUSED){
-            pi->num_processes++;
-            pi->pids[proc_index] = temp->pid;
-            pi->ticks[proc_index] = temp->ticks;
-            pi->tickets[proc_index] = temp->tickets;
+            pi.num_processes++;
+            pi.pids[proc_index] = temp->pid;
+            pi.ticks[proc_index] = temp->ticks;
+            pi.tickets[proc_index] = temp->tickets;
         }
         release(&temp->lock);
     }
 
-    printf("number of process: %d\n", pi->num_processes);
-    for (int i=0; i<NPROC; i++){
-        printf("pid[%d]: %d\n", i, pi->pids[i]);
-        printf("tickets[%d]: %d\n", i, pi->tickets[i]);
-        printf("ticks[%d]: %d\n", i, pi->ticks[i]);
-    }
+    if(copyout(myproc()->pagetable, struct_addr, (char*)&pi, sizeof(pi)) < 0)
+        return -1;
 
     return 0;
 }
