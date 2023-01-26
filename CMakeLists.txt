@@ -84,4 +84,4 @@ add_executable(xv6_riscv_ph2
         user/systest.c
         LICENSE
         Makefile
-        README user/systest.c)
+        README user/systest.c kernel/info.h)

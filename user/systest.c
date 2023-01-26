@@ -1,6 +1,8 @@
 #include "kernel/types.h"
 #include "kernel/stat.h"
 #include "user/user.h"
+#include "kernel/info.h"
+#include "kernel/param.h"
 
 #define N  1000
 
@@ -52,14 +54,22 @@ int main(){
         exit(-1);
     }
 
-    forktest();
+//    forktest();
+
 //    struct processes_info p;
-//
+//    printf("%p", &p);
 //    getprocessesinfo(&p);
-//
+
 //    printf("number of process: %d\n", p.num_processes);
+//    for (int i=0; i<NPROC; i++){
+//        printf("pid[%d]: %d\n", i, p.pids[i]);
+//        printf("tickets[%d]: %d\n", i, p.tickets[i]);
+//        printf("ticks[%d]: %d\n", i, p.ticks[i]);
+//    }
 
-
+/* part without bug */
+    struct processes_info p;
+    getprocessesinfo(&p);
 
     exit(0);
 }

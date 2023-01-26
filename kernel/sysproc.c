@@ -5,6 +5,7 @@
 #include "memlayout.h"
 #include "spinlock.h"
 #include "proc.h"
+#include "info.h"
 
 uint64
 sys_exit(void)
@@ -102,6 +103,7 @@ uint64
 sys_getprocessesinfo(void){
     struct processes_info* p;
     argaddr(0, (uint64*) &p);
+//    printf("%d", (*p).num_processes);
 
     return getprocessesinfo(p);
 }

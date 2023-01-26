@@ -146,6 +146,9 @@
 		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/fs.h">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
+		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/info.h">
+			<Option target="xv6_riscv_ph2"/>
+		</Unit>
 		<Unit filename="/home/ali/xv6_riscv_ph2/kernel/kalloc.c">
 			<Option target="xv6_riscv_ph2"/>
 		</Unit>
