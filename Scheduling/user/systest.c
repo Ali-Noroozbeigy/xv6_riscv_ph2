@@ -24,11 +24,14 @@ int main(){
 
     if(fork()==0){
         int x = 0;
-        for(int i=0; i<10000000 ; i++)
+        for(int i=0; i<160000000 ; i++)
             x+=1;
     }
 
     else{
+        int x = 0;
+        for(int i=0; i<80000000 ; i++)
+            x+=1;
         getprocessesinfo(&p);
 
         printf("number of process: %d\n", p.num_processes);
